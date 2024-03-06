@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Stable Diffusion Sketch</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="add_paint">Add Paint</string>
+    <string name="title_activity_drawing">DrawingActivity</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="stroke_width">Stroke Width</string>
+    <string name="stroke_color">Stroke Color</string>
+    <string name="eraser">Eraser</string>
+    <string name="sdAction">Diffuse now</string>
+    <string name="refImg">Reference Image</string>
+    <string name="super_resolution">Super Resolution</string>
+    <string name="save_sketch">Save Sketch</string>
+    <string name="edit_result">Edit Result</string>
+    <string name="delete_sketch">Delete Sketch</string>
+    <string name="go_back">Go Back</string>
+    <string name="ok">OK</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="configure">Configure</string>
+
+    <string name="draw">Start drawing</string>
+    <string name="add_from_camera">Add from camera</string>
+    <string name="add_from_image">Add from image</string>
+    <string name="generate_image">Generate image</string>
+    <string name="or">or</string>
+    <string name="previous">previous</string>
+    <string name="my_images">My images</string>
+    <string name="no_recent_immages">No recent images</string>
+    <string name="app_not_configured_title">App not configured</string>
+    <string name="app_not_configured_message">Before using the app you have to configure Automatic1111 server address.</string>
+
+
+    <string-array name="sd_size_options">
+        <item>512px</item>
+        <item>768px</item>
+        <item>1024px</item>
+        <item>1280px</item>
+    </string-array>
+    <string-array name="sd_aspect_options">
+        <item>1:1 (square)</item>
+        <item>3:4 (portrait)</item>
+        <item>4:3 (landscape)</item>
+        <item>16:9 (wide landscape)</item>
+    </string-array>
+</resources>

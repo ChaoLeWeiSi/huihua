@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default output image size (long edge):"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/sd_size_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sd_size_options" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Aspect Ratio:"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <Spinner
+        android:id="@+id/sd_aspect_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/sd_aspect_options" />
+</LinearLayout>
